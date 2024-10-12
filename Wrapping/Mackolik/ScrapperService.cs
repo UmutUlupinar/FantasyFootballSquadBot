@@ -11,7 +11,5 @@ public class ScrapperService
     
     public string GetTitle(string url) =>
         _webScraper.ScrapeWebsite(url).Result;
-        
-    
     
 }
